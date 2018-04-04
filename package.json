@@ -9,7 +9,10 @@
         "publish": "node ./node_modules/lerna/bin/lerna.js publish -m \"chore(release): publish %s\""
     },
     "devDependencies": {
+        "@notadd/addon-demo": "^2.3.23",
+        "@notadd/extension-demo": "^2.3.23",
         "@notadd/gulp-typescript": "^4.0.2",
+        "@notadd/module-demo": "^2.3.23",
         "gulp": "^3.9.1",
         "gulp-rename": "^1.2.2",
         "gulp-sequence": "^1.0.0",
@@ -19,5 +22,13 @@
     "engines": {
         "node": ">=9.0.0"
     },
-    "private": true
+    "private": true,
+    "dependencies": {
+        "typescript": "^2.8.1"
+    },
+    "workspaces": [
+        "packages/addon-demo",
+        "packages/extension-demo",
+        "packages/module-demo"
+    ]
 }
