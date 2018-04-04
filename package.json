@@ -9,6 +9,7 @@
         "publish": "node ./node_modules/lerna/bin/lerna.js publish -m \"chore(release): publish %s\""
     },
     "devDependencies": {
+        "@notadd/gulp-typescript": "^4.0.2",
         "gulp": "^3.9.1",
         "gulp-rename": "^1.2.2",
         "gulp-sequence": "^1.0.0",
