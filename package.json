@@ -1,7 +1,6 @@
 {
     "name": "next-demos",
     "version": "2.0.0",
-    "author": "notadd",
     "description": "Modern, fast, powerful node.js web framework",
     "license": "Apache-2.0",
     "scripts": {
