@@ -1,0 +1,22 @@
+{
+    "name": "next-demos",
+    "version": "2.0.0",
+    "author": "notadd",
+    "description": "Modern, fast, powerful node.js web framework",
+    "license": "Apache-2.0",
+    "scripts": {
+        "build": "node --max_old_space_size=4096 ./node_modules/gulp/bin/gulp.js build --dist packages",
+        "prepublish": "node --max_old_space_size=4096 ./node_modules/gulp/bin/gulp.js build --dist packages",
+        "publish": "node ./node_modules/lerna/bin/lerna.js publish -m \"chore(release): publish %s\""
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-sequence": "^1.0.0",
+        "gulp-watch": "^5.0.0",
+        "lerna": "^2.9.1"
+    },
+    "engines": {
+        "node": ">=9.0.0"
+    },
+    "private": true
+}
