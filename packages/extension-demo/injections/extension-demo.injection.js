@@ -6,11 +6,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const extension_decorator_1 = require("../../../../next/packages/injection/decorators/extension.decorator");
+const decorators_1 = require("@notadd/injection/decorators");
 let ExtensionDemoInjection = class ExtensionDemoInjection {
 };
 ExtensionDemoInjection = __decorate([
-    extension_decorator_1.Extension({
+    decorators_1.Extension({
         authors: [
             {
                 email: "admin@notadd.com",

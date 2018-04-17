@@ -1,6 +1,6 @@
-import { Module } from "../../../../next/packages/injection/decorators/module.decorator";
-import { OnModuleInit } from "@nestjs/common/interfaces/modules";
 import { Logger } from "@nestjs/common";
+import { OnModuleInit } from "@nestjs/common/interfaces/modules";
+import { Module } from "@notadd/injection/decorators";
 
 @Module({
     authors: [

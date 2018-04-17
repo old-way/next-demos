@@ -1,4 +1,4 @@
-import { Extension } from "../../../../next/packages/injection/decorators/extension.decorator";
+import { Extension } from "@notadd/injection/decorators";
 
 @Extension({
     authors: [

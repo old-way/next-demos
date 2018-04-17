@@ -6,8 +6,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const addon_decorator_1 = require("../../../../next/packages/injection/decorators/addon.decorator");
 const common_1 = require("@nestjs/common");
+const decorators_1 = require("@notadd/injection/decorators");
 let AddonDemoInjection = class AddonDemoInjection {
     constructor() {
         this.logger = new common_1.Logger("AddonLoader");
@@ -17,7 +17,7 @@ let AddonDemoInjection = class AddonDemoInjection {
     }
 };
 AddonDemoInjection = __decorate([
-    addon_decorator_1.Addon({
+    decorators_1.Addon({
         authors: [
             {
                 email: "admin@notadd.com",
