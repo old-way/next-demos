@@ -23,3 +23,5 @@ ExtensionDemoInjection = __decorate([
     })
 ], ExtensionDemoInjection);
 exports.ExtensionDemoInjection = ExtensionDemoInjection;
+
+//# sourceMappingURL=extension-demo.injection.js.map

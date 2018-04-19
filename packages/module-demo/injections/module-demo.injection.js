@@ -30,3 +30,5 @@ ModuleDemoInjection = __decorate([
     })
 ], ModuleDemoInjection);
 exports.ModuleDemoInjection = ModuleDemoInjection;
+
+//# sourceMappingURL=module-demo.injection.js.map

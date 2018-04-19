@@ -30,3 +30,5 @@ AddonDemoInjection = __decorate([
     })
 ], AddonDemoInjection);
 exports.AddonDemoInjection = AddonDemoInjection;
+
+//# sourceMappingURL=addon-demo.injection.js.map
