@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/notadd/next.git"
+        "url": "git+https://github.com/notadd/next-demos.git"
     },
     "keywords": [
         "Notadd",
@@ -19,11 +19,11 @@
     "author": "notadd",
     "license": "Apache-2.0",
     "dependencies": {
-        "@notadd/core": "^2.3.23",
-        "@notadd/injection": "^2.3.23"
+        "@notadd/core": "^2.4.0",
+        "@notadd/injection": "^2.4.1"
     },
     "bugs": {
-        "url": "https://github.com/notadd/next/issues"
+        "url": "https://github.com/notadd/next-demos/issues"
     },
-    "homepage": "https://github.com/notadd/next#readme"
+    "homepage": "https://github.com/notadd/next-demos#readme"
 }
